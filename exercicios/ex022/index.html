@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+
+        }
+
+        header{
+            background-color: rgb(83, 78, 78);
+            padding: 5px;
+            margin: 10px;
+            box-shadow: 1px 1px black;
+
+        }
+
+        nav{
+            background-color: rgb(39, 32, 32);
+            padding: 3px;
+
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: rgb(51, 33, 33);
+            font-weight: bold;
+            margin-right:30px ;
+
+        }
+
+        nav > a:hover{
+            text-decoration:none;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            
+        }
+
+        article{
+            background-color: rgb(138, 104, 104);
+            padding: 5px;
+
+        }
+
+        article > aside{
+            background-color: antiquewhite;
+            border-radius: 20px;
+        }
+
+        footer{
+            background-color: rgb(143, 136, 129);
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        
+        footer > p{
+
+            margin: 0px;
+        }
+
+        h1{
+            text-align: center;
+            box-shadow: 5px;
+        }
+
+        
+
+
+    </style>
+</head>
+<body>
+    <header>
+        
+            <h1>Meu site </h1>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+          
+         
+    </header>
+    <main>
+        <section id="assuntos">
+            
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis quisquam sint aut quod inventore sapiente saepe optio possimus, veniam voluptatum architecto, provident unde dolorem. Excepturi nam eligendi adipisci quaerat praesentium?</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido por mim</p>
+    </footer>
+         
+
+</body>
+</html>
